@@ -1,0 +1,46 @@
+name: jess_mart
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+#-----------PACKAGES----------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+#UTILITY PACKAGES
+
+  #ICONS
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+#state management
+get: ^4.6.5
+
+
+
+#-------------- ./PACKAGES END--------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  #---------------LOCAL ASSETS--------------#
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
